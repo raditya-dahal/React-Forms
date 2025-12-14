@@ -1,0 +1,21 @@
+nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+nav a {
+  font-weight: 500;
+}
+
+nav a.active {
+  color: #007bff;
+  font-weight: bold;
+}
+
+nav button {
+  margin-left: auto;
+}
